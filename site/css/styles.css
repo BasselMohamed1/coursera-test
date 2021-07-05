@@ -11,7 +11,9 @@
 
     nav {
       background-color: #000;
-      font-family: Cursive;
+      font-family: cursive;
+      text-align: center;
+      width: auto;
     }
 
 h1 {
@@ -25,12 +27,19 @@ h1 {
   }
 
 .box {
+
   background-color: #FF7800;
-  float: left;
   border : 4px solid black;
-  margin: 2.5%;
-  width: 28%;
-  padding: 0; 
+  padding: 0;
+  width: auto;
+  margin-top: 15px;
+  
+}
+
+.row {
+
+  margin:15px;
+  margin-top: 20px;
 }
 
 
@@ -117,15 +126,18 @@ h1 {
 #logo {
   color : #FF7800;
   font-size: 40px;
+  font-family: 'Monoton', cursive;
   margin-left: 60px;
 
   padding: 0;
   
 }
 
-#items a:hover {
+.collapse a:hover {
   background-color: #FF7800;
 } 
+  
+}
 .collapse {
   margin-top: 3px;
 }
@@ -133,5 +145,13 @@ h1 {
 .navbar-toggler {
   margin-right: 10px;
 }
+
+#back {
+  font-size: 20px;
+  font-family: cursive;
+  color : black;
+}
+
+
 
 
