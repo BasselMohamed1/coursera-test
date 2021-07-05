@@ -123,9 +123,9 @@ h1 {
   
 }
 
-#items {
-  font-family: Cursive;
-}
+#items a:hover {
+  background-color: #FF7800;
+} 
 .collapse {
   margin-top: 3px;
 }
